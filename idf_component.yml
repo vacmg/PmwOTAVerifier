@@ -8,5 +8,9 @@ files:
         - "test/*"
         - ".clang-*"
 dependencies:
+    EspOSInterface:
+        git: git@github.com:vacmg/EspOSInterface.git
+        version: "v1.0.0"
+
     idf:
         version: ">=5.4.0"

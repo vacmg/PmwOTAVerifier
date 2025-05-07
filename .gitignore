@@ -1,3 +1,5 @@
 build
 .idea
 sdkconfig*
+managed_components
+
