@@ -1,0 +1,12 @@
+version: "1.0.0"
+description: "This component provides an interface to mark the OTA as valid or perform a rollback"
+url: "https://github.com/vacmg/PMW-OTAVerifier"
+files:
+    exclude:
+        - ".github/*"
+        - "test-project/*"
+        - "test/*"
+        - ".clang-*"
+dependencies:
+    idf:
+        version: ">=5.4.0"
